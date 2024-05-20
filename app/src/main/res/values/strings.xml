@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rainbow Graph</string>
+<!--    <string name="app_name">Graph Coloring</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="proper_coloring">Color all vertices of the graph.\n(Adjacent vertices have not same color)\n\n<b>Proper Coloring</b></string>
+    <string name="harmonious_coloring">Color all vertices of the graph.\n(Adjacent vertices have not same color and not repeat pair of two color)\n\n<b>Harmonious Coloring</b></string>
+</resources>

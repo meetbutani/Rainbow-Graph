@@ -1,0 +1,3806 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="basicEdge">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:background">@color/Gray</item>
+        <!--        <item name="android:background">@drawable/edge</item>-->
+    </style>
+
+    <style name="basicVertex">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:backgroundTint">@color/Gray</item>
+        <item name="layout_constraintCircleRadius">150dp</item>
+        <!--        <item name="android:text">&#45;&#45;</item>-->
+        <!--        <item name="android:textColor">@android:color/transparent</item>-->
+    </style>
+
+    <style name="color_palette">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">10dp</item>
+        <!--        <item name="android:layout_weight">1</item>-->
+        <item name="android:background">@drawable/round_border</item>
+        <item name="android:backgroundTint">@color/Gray</item>
+        <!--        <item name="android:backgroundTintMode">add</item>-->
+        <item name="android:textColor">@android:color/transparent</item>
+        <item name="android:textColorHint">@color/Gray</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginVertical" tools:targetApi="o">10dp</item>
+        <item name="background">@drawable/button_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/shadow</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="gradient">
+        <item name="startColor">@color/Gray</item>
+        <item name="endColor">@color/Gray</item>
+    </style>
+
+    <style name="TextViewColoring">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#FFC9F6</item>
+<!--        <item name="android:textStyle">bold</item>-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">10dp</item>
+        <item name="android:layout_marginVertical" tools:targetApi="o">25dp</item>
+    </style>
+
+
+    <style name="S_5570646_5570646">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_5570646_65536">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_5570646_256">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_5570646_22016">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_5570646_16733441">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_5570646_16711936">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_5570646_4868683">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_5570646_86">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_5570646_13447886">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_5570646_65281">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_5570646_16776961">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_5570646_16711681">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_5570646_43776">
+        <item name="startColor">@color/col6</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_65536_5570646">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_65536_65536">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_65536_256">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_65536_22016">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_65536_16733441">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_65536_16711936">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_65536_4868683">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_65536_86">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_65536_13447886">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_65536_65281">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_65536_16776961">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_65536_16711681">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_65536_43776">
+        <item name="startColor">@color/col1</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_256_5570646">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_256_65536">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_256_256">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_256_22016">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_256_16733441">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_256_16711936">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_256_4868683">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_256_86">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_256_13447886">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_256_65281">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_256_16776961">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_256_16711681">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_256_43776">
+        <item name="startColor">@color/col4</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_22016_5570646">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_22016_65536">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_22016_256">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_22016_22016">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_22016_16733441">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_22016_16711936">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_22016_4868683">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_22016_86">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_22016_13447886">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_22016_65281">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_22016_16776961">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_22016_16711681">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_22016_43776">
+        <item name="startColor">@color/col3</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_16733441_5570646">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_16733441_65536">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_16733441_256">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_16733441_22016">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_16733441_16733441">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_16733441_16711936">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_16733441_4868683">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_16733441_86">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_16733441_13447886">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_16733441_65281">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_16733441_16776961">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_16733441_16711681">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_16733441_43776">
+        <item name="startColor">@color/col12</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_16711936_5570646">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_16711936_65536">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_16711936_256">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_16711936_22016">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_16711936_16733441">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_16711936_16711936">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_16711936_4868683">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_16711936_86">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_16711936_13447886">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_16711936_65281">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_16711936_16776961">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_16711936_16711681">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_16711936_43776">
+        <item name="startColor">@color/col5</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_4868683_5570646">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_4868683_65536">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_4868683_256">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_4868683_22016">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_4868683_16733441">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_4868683_16711936">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_4868683_4868683">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_4868683_86">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_4868683_13447886">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_4868683_65281">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_4868683_16776961">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_4868683_16711681">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_4868683_43776">
+        <item name="startColor">@color/Def</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_86_5570646">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_86_65536">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_86_256">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_86_22016">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_86_16733441">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_86_16711936">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_86_4868683">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_86_86">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_86_13447886">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_86_65281">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_86_16776961">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_86_16711681">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_86_43776">
+        <item name="startColor">@color/col8</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_13447886_5570646">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_13447886_65536">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_13447886_256">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_13447886_22016">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_13447886_16733441">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_13447886_16711936">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_13447886_4868683">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_13447886_86">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_13447886_13447886">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_13447886_65281">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_13447886_16776961">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_13447886_16711681">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_13447886_43776">
+        <item name="startColor">@color/col7</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_65281_5570646">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_65281_65536">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_65281_256">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_65281_22016">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_65281_16733441">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_65281_16711936">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_65281_4868683">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_65281_86">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_65281_13447886">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_65281_65281">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_65281_16776961">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_65281_16711681">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_65281_43776">
+        <item name="startColor">@color/col10</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_16776961_5570646">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_16776961_65536">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_16776961_256">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_16776961_22016">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_16776961_16733441">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_16776961_16711936">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_16776961_4868683">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_16776961_86">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_16776961_13447886">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_16776961_65281">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_16776961_16776961">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_16776961_16711681">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_16776961_43776">
+        <item name="startColor">@color/col9</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_16711681_5570646">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_16711681_65536">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_16711681_256">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_16711681_22016">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_16711681_16733441">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_16711681_16711936">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_16711681_4868683">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_16711681_86">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_16711681_13447886">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_16711681_65281">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_16711681_16776961">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_16711681_16711681">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_16711681_43776">
+        <item name="startColor">@color/col11</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <style name="S_43776_5570646">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col6</item>
+    </style>
+
+    <style name="S_43776_65536">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col1</item>
+    </style>
+
+    <style name="S_43776_256">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col4</item>
+    </style>
+
+    <style name="S_43776_22016">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col3</item>
+    </style>
+
+    <style name="S_43776_16733441">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col12</item>
+    </style>
+
+    <style name="S_43776_16711936">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col5</item>
+    </style>
+
+    <style name="S_43776_4868683">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/Def</item>
+    </style>
+
+    <style name="S_43776_86">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col8</item>
+    </style>
+
+    <style name="S_43776_13447886">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col7</item>
+    </style>
+
+    <style name="S_43776_65281">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col10</item>
+    </style>
+
+    <style name="S_43776_16776961">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col9</item>
+    </style>
+
+    <style name="S_43776_16711681">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col11</item>
+    </style>
+
+    <style name="S_43776_43776">
+        <item name="startColor">@color/col2</item>
+        <item name="endColor">@color/col2</item>
+    </style>
+
+    <!--    <style name="S_5570646_5570646">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_8227049">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_65536">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_256">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_22016">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_16733441">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_16711936">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_7860657">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_4868683">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_86">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_16752540">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_13447886">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_65281">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_16776961">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_16711681">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_15064194">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_5570646_43776">-->
+    <!--        <item name="startColor">#FFAAFFAA</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_5570646">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_8227049">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_65536">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_256">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_22016">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_16733441">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_16711936">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_7860657">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_4868683">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_86">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_16752540">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_13447886">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_65281">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_16776961">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_16711681">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_15064194">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_8227049_43776">-->
+    <!--        <item name="startColor">#FF827717</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_5570646">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_8227049">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_65536">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_256">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_22016">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_16733441">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_16711936">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_7860657">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_4868683">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_86">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_16752540">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_13447886">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_65281">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_16776961">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_16711681">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_15064194">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_43776">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_5570646">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_8227049">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_65536">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_256">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_22016">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_16733441">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_16711936">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_7860657">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_4868683">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_86">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_16752540">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_13447886">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_65281">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_16776961">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_16711681">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_15064194">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_43776">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_5570646">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_8227049">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_65536">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_256">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_22016">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_16733441">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_16711936">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_7860657">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_4868683">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_86">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_16752540">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_13447886">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_65281">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_16776961">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_16711681">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_15064194">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_22016_43776">-->
+    <!--        <item name="startColor">#FFFFAA00</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_5570646">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_8227049">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_65536">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_256">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_22016">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_16733441">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_16711936">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_7860657">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_4868683">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_86">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_16752540">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_13447886">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_65281">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_16776961">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_16711681">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_15064194">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16733441_43776">-->
+    <!--        <item name="startColor">#FF00AAFF</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_5570646">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_8227049">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_65536">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_256">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_22016">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_16733441">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_16711936">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_7860657">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_4868683">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_86">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_16752540">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_13447886">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_65281">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_16776961">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_16711681">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_15064194">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_43776">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_5570646">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_8227049">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_65536">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_256">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_22016">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_16733441">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_16711936">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_7860657">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_4868683">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_86">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_16752540">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_13447886">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_65281">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_16776961">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_16711681">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_15064194">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_7860657_43776">-->
+    <!--        <item name="startColor">#FF880E4F</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_5570646">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_8227049">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_65536">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_256">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_22016">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_16733441">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_16711936">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_7860657">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_4868683">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_86">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_16752540">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_13447886">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_65281">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_16776961">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_16711681">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_15064194">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_43776">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_5570646">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_8227049">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_65536">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_256">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_22016">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_16733441">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_16711936">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_7860657">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_4868683">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_86">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_16752540">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_13447886">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_65281">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_16776961">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_16711681">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_15064194">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_86_43776">-->
+    <!--        <item name="startColor">#FFFFFFAA</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_5570646">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_8227049">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_65536">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_256">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_22016">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_16733441">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_16711936">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_7860657">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_4868683">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_86">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_16752540">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_13447886">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_65281">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_16776961">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_16711681">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_15064194">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16752540_43776">-->
+    <!--        <item name="startColor">#FF006064</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_5570646">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_8227049">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_65536">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_256">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_22016">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_16733441">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_16711936">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_7860657">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_4868683">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_86">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_16752540">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_13447886">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_65281">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_16776961">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_16711681">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_15064194">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_13447886_43776">-->
+    <!--        <item name="startColor">#FF32CD32</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_5570646">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_8227049">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_65536">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_256">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_22016">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_16733441">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_16711936">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_7860657">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_4868683">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_86">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_16752540">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_13447886">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_65281">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_16776961">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_16711681">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_15064194">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65281_43776">-->
+    <!--        <item name="startColor">#FFFF00FF</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_5570646">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_8227049">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_65536">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_256">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_22016">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_16733441">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_16711936">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_7860657">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_4868683">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_86">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_16752540">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_13447886">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_65281">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_16776961">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_16711681">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_15064194">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_43776">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_5570646">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_8227049">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_65536">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_256">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_22016">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_16733441">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_16711936">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_7860657">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_4868683">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_86">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_16752540">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_13447886">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_65281">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_16776961">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_16711681">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_15064194">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_43776">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_5570646">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_8227049">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_65536">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_256">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_22016">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_16733441">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_16711936">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_7860657">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_4868683">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_86">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_16752540">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_13447886">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_65281">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_16776961">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_16711681">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_15064194">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_15064194_43776">-->
+    <!--        <item name="startColor">#FF1A237E</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_5570646">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FFAAFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_8227049">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FF827717</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_65536">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_256">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_22016">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FFFFAA00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_16733441">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FF00AAFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_16711936">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_7860657">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FF880E4F</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_4868683">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_86">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FFFFFFAA</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_16752540">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FF006064</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_13447886">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FF32CD32</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_65281">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FFFF00FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_16776961">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_16711681">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_15064194">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FF1A237E</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_43776_43776">-->
+    <!--        <item name="startColor">#FFFF5500</item>-->
+    <!--        <item name="endColor">#FFFF5500</item>-->
+    <!--    </style>-->
+
+
+    <!--    New Part -->
+
+
+    <!--    <style name="S_256_256">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_39424">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_16711681">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_2817799">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_6283024">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_16731905">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_10149889">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_16640">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_14816842">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_4868683">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_65536">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_4718848">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_12667767">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_12756226">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_16776961">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_16711936">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_256_49790">-->
+    <!--        <item name="startColor">#FFFFFF00</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_256">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_39424">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_16711681">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_2817799">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_6283024">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_16731905">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_10149889">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_16640">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_14816842">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_4868683">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_65536">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_4718848">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_12667767">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_12756226">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_16776961">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_16711936">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_39424_49790">-->
+    <!--        <item name="startColor">#FFFF6600</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_256">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_39424">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_16711681">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_2817799">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_6283024">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_16731905">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_10149889">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_16640">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_14816842">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_4868683">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_65536">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_4718848">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_12667767">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_12756226">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_16776961">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_16711936">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711681_49790">-->
+    <!--        <item name="startColor">#FF00FFFF</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_256">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_39424">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_16711681">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_2817799">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_6283024">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_16731905">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_10149889">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_16640">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_14816842">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_4868683">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_65536">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_4718848">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_12667767">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_12756226">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_16776961">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_16711936">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_2817799_49790">-->
+    <!--        <item name="startColor">#FFD500F9</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_256">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_39424">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_16711681">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_2817799">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_6283024">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_16731905">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_10149889">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_16640">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_14816842">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_4868683">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_65536">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_4718848">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_12667767">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_12756226">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_16776961">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_16711936">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_6283024_49790">-->
+    <!--        <item name="startColor">#FFA020F0</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_256">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_39424">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_16711681">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_2817799">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_6283024">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_16731905">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_10149889">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_16640">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_14816842">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_4868683">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_65536">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_4718848">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_12667767">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_12756226">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_16776961">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_16711936">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16731905_49790">-->
+    <!--        <item name="startColor">#FF00B0FF</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_256">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_39424">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_16711681">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_2817799">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_6283024">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_16731905">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_10149889">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_16640">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_14816842">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_4868683">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_65536">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_4718848">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_12667767">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_12756226">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_16776961">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_16711936">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_10149889_49790">-->
+    <!--        <item name="startColor">#FF651FFF</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_256">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_39424">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_16711681">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_2817799">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_6283024">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_16731905">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_10149889">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_16640">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_14816842">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_4868683">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_65536">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_4718848">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_12667767">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_12756226">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_16776961">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_16711936">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16640_49790">-->
+    <!--        <item name="startColor">#FFFFBF00</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_256">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_39424">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_16711681">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_2817799">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_6283024">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_16731905">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_10149889">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_16640">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_14816842">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_4868683">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_65536">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_4718848">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_12667767">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_12756226">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_16776961">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_16711936">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_14816842_49790">-->
+    <!--        <item name="startColor">#FF1DE9B6</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_256">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_39424">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_16711681">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_2817799">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_6283024">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_16731905">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_10149889">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_16640">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_14816842">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_4868683">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_65536">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_4718848">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_12667767">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_12756226">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_16776961">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_16711936">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4868683_49790">-->
+    <!--        <item name="startColor">#FFB5B5B5</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_256">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_39424">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_16711681">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_2817799">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_6283024">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_16731905">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_10149889">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_16640">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_14816842">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_4868683">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_65536">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_4718848">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_12667767">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_12756226">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_16776961">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_16711936">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_65536_49790">-->
+    <!--        <item name="startColor">#FFFF0000</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_256">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_39424">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_16711681">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_2817799">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_6283024">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_16731905">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_10149889">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_16640">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_14816842">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_4868683">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_65536">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_4718848">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_12667767">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_12756226">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_16776961">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_16711936">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_4718848_49790">-->
+    <!--        <item name="startColor">#FFB7FF00</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_256">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_39424">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_16711681">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_2817799">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_6283024">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_16731905">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_10149889">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_16640">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_14816842">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_4868683">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_65536">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_4718848">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_12667767">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_12756226">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_16776961">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_16711936">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12667767_49790">-->
+    <!--        <item name="startColor">#FF3EB489</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_256">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_39424">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_16711681">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_2817799">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_6283024">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_16731905">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_10149889">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_16640">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_14816842">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_4868683">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_65536">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_4718848">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_12667767">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_12756226">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_16776961">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_16711936">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_12756226_49790">-->
+    <!--        <item name="startColor">#FF3D5AFE</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_256">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_39424">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_16711681">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_2817799">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_6283024">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_16731905">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_10149889">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_16640">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_14816842">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_4868683">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_65536">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_4718848">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_12667767">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_12756226">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_16776961">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_16711936">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16776961_49790">-->
+    <!--        <item name="startColor">#FF0000FF</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_256">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_39424">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_16711681">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_2817799">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_6283024">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_16731905">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_10149889">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_16640">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_14816842">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_4868683">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_65536">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_4718848">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_12667767">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_12756226">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_16776961">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_16711936">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_16711936_49790">-->
+    <!--        <item name="startColor">#FF00FF00</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_256">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FFFFFF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_39424">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FFFF6600</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_16711681">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FF00FFFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_2817799">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FFD500F9</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_6283024">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FFA020F0</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_16731905">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FF00B0FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_10149889">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FF651FFF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_16640">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FFFFBF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_14816842">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FF1DE9B6</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_4868683">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FFB5B5B5</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_65536">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FFFF0000</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_4718848">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FFB7FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_12667767">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FF3EB489</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_12756226">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FF3D5AFE</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_16776961">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FF0000FF</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_16711936">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FF00FF00</item>-->
+    <!--    </style>-->
+
+    <!--    <style name="S_49790_49790">-->
+    <!--        <item name="startColor">#FFFF3D82</item>-->
+    <!--        <item name="endColor">#FFFF3D82</item>-->
+    <!--    </style>-->
+
+</resources>
